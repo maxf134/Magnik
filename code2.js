@@ -436,6 +436,11 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs._49_32_1059_1088_1086_1074_1077_1085_1100Code.mapOfGDgdjs_9546_959549_959532_95951059_95951088_95951086_95951074_95951077_95951085_95951100Code_9546GDJumpButtonObjects4Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9807356);
+}
+}
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs._49_32_1059_1088_1086_1074_1077_1085_1100Code.GDJumpButtonObjects4 */
@@ -459,6 +464,11 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs._49_32_1059_1088_1086_107
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21804900);
+}
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("JumpButton"), gdjs._49_32_1059_1088_1086_1074_1077_1085_1100Code.GDJumpButtonObjects3);
 {for(var i = 0, len = gdjs._49_32_1059_1088_1086_1074_1077_1085_1100Code.GDJumpButtonObjects3.length ;i < len;++i) {
